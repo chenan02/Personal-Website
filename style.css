@@ -1,0 +1,98 @@
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Lato;
+	font: white;
+    padding: 0;
+    margin: 0;
+}
+
+.background1 {
+	/*position: absolute;*/
+	/*background-image: url("http://fineartamerica.com/images-medium-5/1-ann-arbor-nights-pat-cook.jpg");*/
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: block;
+}
+
+.background1 img {
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.5;
+}
+
+#welcome {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	z-index: 2;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	height: 59px;
+	width: 100%;
+	background-color: yellow;
+    z-index: 10000;
+}
+
+.navbutton {
+	vertical-align: middle;
+	font-size: 16px;
+	float: right;
+	height: 100%;
+	width: 100px;
+	text-align: center;
+	float: right;
+	display: inline-block;
+	margin: auto;
+}
+
+#about p {
+    vertical-align: middle;
+}
+
+#contact p {
+    vertical-align: middle;
+}
+
+#top p {
+	vertical-align: middle;
+}
+
+.background2 {
+    /*position: absolute;*/
+    background-size: cover;
+	display: block;
+    height: 100vh;
+    width: 100%;
+}
+.background2 img {
+	/*background-image: url("https://amitchellcreative.files.wordpress.com/2013/06/crisler_center_night_black_and_white.jpg");*/
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.5;
+}
+.background3 {
+    /*position: absolute;*/
+	background-color: gray;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+</style>
